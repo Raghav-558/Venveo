@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../common/Header'
-import greenLine from '../assets/images/green-line.webp'
+import GreenLine from '../assets/images/green-line.webp'
 import HeroImage from '../assets/images/hero-section.webp'
 import Brand from '../assets/images/made-for-brands.webp'
-import singleLine from '../assets/images/single-line.webp'
+import SingleLine from '../assets/images/single-line.webp'
 import Star1 from '../assets/images/hero-star.webp'
 import Star2 from '../assets/images/star2.webp'
 
@@ -24,7 +24,7 @@ const Hero = () => {
             <span className='relative'>
               GROWTH{' '}
               <img
-                src={greenLine}
+                src={GreenLine}
                 alt='green-line'
                 className='h-5 absolute left-1/2 -translate-x-1/2'
               />
@@ -44,25 +44,25 @@ const Hero = () => {
               placeholder='Enter Your Website'
               className='bg-transparent w-full h-full py-[22px] sm:pl-[34.27px] max-sm:py-[22px] outline-none font-maisonBook text-[15px] leading-5 text-white text-opacity-40'
             />
-            <button className='font-maisonDemi text-[15px] leading-5 text-white hover:text-lemon transition-all duration-300'>
+            <button className='font-maisonDemi text-[15px] leading-5 text-white'>
               Analyze
             </button>
           </form>
         </div>
         <div className='absolute -bottom-4 z-0 w-full'>
-          <img src={singleLine} alt='single-line' className='absolute w-full' />
+          <img src={SingleLine} alt='single-line' className='absolute w-full' />
         </div>
         <div className='absolute left-1/2 -translate-x-1/2 h-[490px] w-full max-w-[871px] max-lg:h-96 max-md:h-64 max-sm:h-[329px] max-sm:w-[328px] -bottom-[245px] max-lg:-bottom-[192px] max-md:-bottom-[123px] max-sm:-bottom-[203px]'>
           <div className='relative'>
             <img
               src={Brand}
               alt='made-for-brands'
-              className='h-[107px] max-sm:h-[107px] absolute -left-[50px] max-lg:left-10 bottom-[47px] max-md:h-14 max-md:left-[17%] max-md:bottom-[7%] max-sm:-bottom-6 max-sm:left-[62%]'
+              className='h-[107px] absolute left-[-50px] bottom-[48.5px] max-lg:left-10 max-md:h-14 max-md:left-[17%] max-md:bottom-[7%] max-sm:-bottom-6 max-sm:left-[62%] max-sm:h-[107px]'
             />
             <img
               src={HeroImage}
-              alt='hero'
-              className='h-[490px] object-cover max-lg:h-96 max-md:h-64 max-sm:h-[329px]  mx-auto'
+              alt='hero-Image'
+              className='h-[490px] object-cover max-lg:h-96 max-md:h-64 max-sm:h-[329px] mx-auto'
             />
           </div>
         </div>
