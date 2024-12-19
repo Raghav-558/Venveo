@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Sohne Schmal';
+  src: url(./assets/fonts/Sohne.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url(./assets/fonts/Maison-Neue.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MaisonNeueDemi';
+  src: url(./assets/fonts/MaisonNeue-Demi.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MaisonNeueMedium';
+  src: url(./assets/fonts/MaisonNeue-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MaisonNeueBook';
+  src: url(./assets/fonts/MaisonNeue-Book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MaisonNeueLight';
+  src: url(./assets/fonts/MaisonNeue-Light.ttf) format('truetype');
+}
+
+.right-arrow:hover svg path {
+  stroke: #D2F038;
+}
+
+.custom-select option {
+  background-color: black;
+}
