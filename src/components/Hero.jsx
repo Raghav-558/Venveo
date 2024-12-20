@@ -19,7 +19,7 @@ const Hero = () => {
             alt='half-star'
             className='absolute bottom-0 right-0 h-[150px] max-sm:h-32 max-md:hidden'
           />
-          <h1 className='max-md:text-6xl max-sm:text-[60px] max-sm:leading-[52px] font-bold text-[120px] leading-[104px] text-white font-sohne max-w-[619px] mx-auto text-center relative pt-[39px] pb-7 max-sm:pt-[51px]'>
+          <h1 className='font-sohne max-md:text-6xl max-sm:text-[60px] max-sm:leading-[52px] font-bold text-[120px] leading-[104px] text-white max-w-[619px] mx-auto text-center relative pt-[39px] pb-7 max-sm:pt-[51px]'>
             MAKE MARKETING A{' '}
             <span className='relative'>
               GROWTH{' '}
@@ -42,7 +42,7 @@ const Hero = () => {
             <input
               type='text'
               placeholder='Enter Your Website'
-              className='bg-transparent w-full h-full py-[22px] sm:pl-[34.27px] max-sm:py-[22px] outline-none font-maisonBook text-[15px] leading-5 text-white text-opacity-40'
+              className='py-[22px] sm:pl-[34.27px] outline-none font-maisonBook text-[15px] leading-5 text-white text-opacity-40 bg-transparent w-full h-full max-sm:py-[22px]'
             />
             <button className='font-maisonDemi text-[15px] leading-5 text-white'>
               Analyze
@@ -62,7 +62,7 @@ const Hero = () => {
             <img
               src={HeroImage}
               alt='hero-Image'
-              className='h-[490px] object-cover max-lg:h-96 max-md:h-64 max-sm:h-[329px] mx-auto'
+              className='h-[490px] object-cover max-lg:h-96 max-md:h-[329px] mx-auto'
             />
           </div>
         </div>
